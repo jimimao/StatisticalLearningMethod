@@ -16,13 +16,9 @@ def loaddata():
     dataMat= np.array([[0,1,3],[0,3,1],[1,2,2],
                       [1,1,3],[1,2,3],[0,1,2],
                       [1,1,2],[1,1,1],[1,3,1],[0,2,1]])
-
     dataLabel = np.array([-1,-1,-1,-1,-1,-1,1,1,-1,-1])
-
     m,n = dataMat.shape
-
     W = np.ones(m) / m
-
     return dataMat,dataLabel,W
 
 
